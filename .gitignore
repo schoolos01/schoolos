@@ -28,6 +28,8 @@ yarn-error.log*
 
 # local env files
 .env*.local
+# local env files
+.env*.local
 
 # vercel
 .vercel
@@ -59,12 +61,4 @@ Thumbs.db
 *.bak
 *.swp
 *.tmp
-
-# OpenNext
-.open-next
-
-# wrangler files
-.wrangler
-.dev.vars*
-!.dev.vars.example
-!.env.example
+package-lock.json
